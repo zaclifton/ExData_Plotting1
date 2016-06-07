@@ -21,7 +21,7 @@ ed_housepower$DateTime <- strptime(ed_housepower$DateTime, "%Y-%m-%d %H:%M:%S", 
 
 
 #All the code prior to this is repeated in each of the plot scripts
-#if you're testing my code in one sitting, it's not necessary to re-reun each time
+#if you're testing my code in one sitting, it's not necessary to re-run each time
 
 
 #plot1.png
