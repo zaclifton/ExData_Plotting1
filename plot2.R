@@ -19,8 +19,8 @@ ed_housepower <- subset(housepower, Date=="2007-02-01"|Date=="2007-02-02")
 ed_housepower$DateTime <- paste(ed_housepower$Date, ed_housepower$Time)
 ed_housepower$DateTime <- strptime(ed_housepower$DateTime, "%Y-%m-%d %H:%M:%S", tz="America/Los_Angeles")
 
-#All the code prior to this is repeated in eac of the plot scripts
-#if you're testing my code in one sitting, it's not necessary to re-reun each time
+#All the code prior to this is repeated in each of the plot scripts
+#if you're testing my code in one sitting, it's not necessary to re-run each time
 #plot2.png
 par(mfrow=c(1,1))
 png(filename="./data/plot2.png")
